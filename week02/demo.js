@@ -5,7 +5,7 @@ function find(string){
   let findD = false;
   let findE = false;
   let findF = false;
-  for(let i in string){
+  for(let i of string){
     if(i == 'a'){
       findA = true;
     }else if (findA && (i == 'b')){
